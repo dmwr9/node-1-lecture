@@ -7,6 +7,7 @@ app.use(express.json());
 
 const port = 4040;
 
+// Dummy data
 const users = [{id: 1, name: 'Cole'}, {id:2, name: 'Ben'}, {id:3, name: 'Fred Flinstone'}]
 
 // * General request for all data
